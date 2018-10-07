@@ -10,6 +10,14 @@ class Dog
     end
 
 
+    def bread
+      @bread
+    end
+
+    def bread=(new_bread)
+      @bread=new_bread
+    end
+
 end
 
 
