@@ -1,10 +1,6 @@
 class Dog
 
 
-    def initialize(name)
-      @name = name
-    end
-
     def name
       @name
     end
@@ -17,7 +13,6 @@ class Dog
 end
 
 
-max = Dog.new("Max")
-puts "#{max.name}"
+max = Dog.new
 max.name = "Max2"
 puts "#{max.name}"
